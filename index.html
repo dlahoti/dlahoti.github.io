@@ -3,12 +3,33 @@
   <head>
     <style type="text/css">
       body {
-        background-image: url("img.gif");
-        background-color: #000000;
-        background-repeat: no-repeat;
-        background-position: center;
+        background-color: black;
         background-attachment: fixed;
-       }
+        background-image: url("polarbear.webp"), url("mushroom.webp"), url("penguin.webp");
+        background-repeat: no-repeat;
+        background-size: 10%;
+        background-position: 30% 50%, 45% 50%, 60% 50%;
+        height: 100%;
+        display: flex;
+      }
+      marquee {
+        position: absolute;
+        top: 30%;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        font-size: xxx-large;
+        color: black;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+      }
     </style>
+    <title>
+      welcome to my website !!!
+    </title>
   </head>
+  <body>
+    <marquee scrollamount=15>
+      welcome to my website !!!
+    </marquee>
+  </body>
 </html>
